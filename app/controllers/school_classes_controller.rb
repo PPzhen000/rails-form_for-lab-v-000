@@ -1,8 +1,5 @@
 class SchoolClassesController < ApplicationController
 
-  def index
-  end
-
   def edit
   end
 
@@ -20,5 +17,5 @@ class SchoolClassesController < ApplicationController
 
   def update
   end
-  
+
 end

@@ -16,6 +16,6 @@ class StudentsController < ApplicationController
   end
 
   def update
-  end 
+  end
 
 end
