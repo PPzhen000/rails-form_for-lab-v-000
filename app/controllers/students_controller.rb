@@ -12,7 +12,9 @@ class StudentsController < ApplicationController
   end
 
   def create
-
+    @student = SchoolClass.new(params.require(:student))
+    @student.save
+    redirect_to student_path(@student)
   end
 
   def update
