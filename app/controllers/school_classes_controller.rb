@@ -1,5 +1,15 @@
 class SchoolClassesController < ApplicationController
 
+  def index
+  end
+
+  def edit
+  end
+
+  def show
+
+  end
+
   def new
     @school_class = SchoolClass.new
   end
@@ -8,4 +18,6 @@ class SchoolClassesController < ApplicationController
 
   end
 
+  def update
+  end
 end
