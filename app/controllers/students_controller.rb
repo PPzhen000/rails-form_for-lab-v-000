@@ -18,6 +18,9 @@ class StudentsController < ApplicationController
   end
 
   def update
+    @student = Post.find(params[:id])
+    @student.update(params.require(:post).permit(:title))
+    redirect_to student_path(@student)
   end
 
 end
